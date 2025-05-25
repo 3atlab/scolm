@@ -1,0 +1,456 @@
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 28 says hello and bids fair to announce only bgp routes vrf=0
+2023/07/19 08:20:25 BGP: [KTE2S-GTBDA][EC 100663301] INTERFACE_ADDRESS_ADD: Cannot find IF 11156 in VRF 0
+2023/07/19 08:20:25 BGP: [KTE2S-GTBDA][EC 100663301] INTERFACE_ADDRESS_ADD: Cannot find IF 11154 in VRF 0
+2023/07/19 08:20:25 OSPF: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF clab-af969c6f in VRF 0
+2023/07/19 08:20:25 OSPF: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF net3 in VRF 0
+2023/07/19 08:20:25 OSPF: [KTE2S-GTBDA][EC 100663301] INTERFACE_ADDRESS_DEL: Cannot find IF 11154 in VRF 0
+2023/07/19 08:20:25 OSPF: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF net2 in VRF 0
+2023/07/19 08:20:25 OSPF: [TS11G-09SPQ][EC 100663301] zebra_interface_link_params_read: unknown ifindex 11156, shouldn't happen
+2023/07/19 08:20:25 OSPF: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF net3 in VRF 0
+2023/07/19 08:20:25 OSPF: [TS11G-09SPQ][EC 100663301] zebra_interface_link_params_read: unknown ifindex 11154, shouldn't happen
+2023/07/19 08:20:25 OSPF: [KTE2S-GTBDA][EC 100663301] INTERFACE_ADDRESS_ADD: Cannot find IF 11154 in VRF 0
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 37 says hello and bids fair to announce only ospf routes vrf=0
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 34 says hello and bids fair to announce only vnc routes vrf=0
+2023/07/19 08:20:25 BGP: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF clab-af969c6f in VRF 0
+2023/07/19 08:20:25 OSPF6: [H12G7-14H22] Higher order sequence number 0 update for default process
+2023/07/19 08:20:25 OSPF6: [YAF85-253AP][EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2023/07/19 08:20:25 OSPF6: [YAF85-253AP][EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 44 says hello and bids fair to announce only ospf6 routes vrf=0
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 49 says hello and bids fair to announce only static routes vrf=0
+2023/07/19 08:20:27 BGP: [HZN6M-XRM1G] %NOTIFICATION: sent to neighbor 192.168.2.2 6/7 (Cease/Connection Collision Resolution) 0 bytes 
+2023/07/19 08:20:27 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: 192.168.2.2
+2023/07/19 08:20:27 BGP: [N9HHH-F8H1M] %ADJCHANGE: neighbor 192.168.2.2(r4) in vrf default Up
+2023/07/19 08:20:27 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.168.2.2 in vrf default
+2023/07/19 08:20:36 OSPF: [H0QH3-2B67G] AdjChg: Nbr 192.168.255.3(default) on net1:192.168.1.1: Loading -> Full (LoadingDone)
+2023/07/19 08:20:38 OSPF: [H0QH3-2B67G] AdjChg: Nbr 192.168.255.2(default) on net0:192.168.0.1: Loading -> Full (LoadingDone)
+2023/07/19 08:20:40 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: net0 old speed: 0 new speed: 10000
+2023/07/19 08:20:40 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: net2 old speed: 0 new speed: 10000
+2023/07/19 08:20:40 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: net3 old speed: 0 new speed: 10000
+2023/07/19 08:20:48 BGP: [HZN6M-XRM1G] %NOTIFICATION: sent to neighbor 192.168.255.2 6/7 (Cease/Connection Collision Resolution) 0 bytes 
+2023/07/19 08:20:48 BGP: [N9HHH-F8H1M] %ADJCHANGE: neighbor 192.168.255.2(r2) in vrf default Up
+2023/07/19 08:20:48 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.168.255.2 in vrf default
+2023/07/19 08:21:09 OSPF6: [X5JSC-0Y36N] AdjChg: Nbr 192.168.255.2%net0: Loading -> Full (LoadingDone)
+2023/07/19 08:21:11 OSPF6: [X5JSC-0Y36N] AdjChg: Nbr 192.168.255.3%net1: Loading -> Full (LoadingDone)
+2023/07/19 08:20:23 ZEBRA: [MKC88-BZPPP][EC 100663305] interface rename detected on up interface: index 11142 was renamed from net0 to clab-afcf4145, results are uncertain!
+2023/07/19 08:20:23 ZEBRA: [NXYS2-XRNQB][EC 100663305] interface net0 vrf default(0) index 11142 is still up while being deleted.
+2023/07/19 08:20:23 ZEBRA: [V98V0-MTWPF] client 17 says hello and bids fair to announce only bgp routes vrf=0
+2023/07/19 08:20:23 ZEBRA: [V98V0-MTWPF] client 33 says hello and bids fair to announce only vnc routes vrf=0
+2023/07/19 08:20:23 ZEBRA: [V98V0-MTWPF] client 39 says hello and bids fair to announce only ospf routes vrf=0
+2023/07/19 08:20:23 OSPF: [TS11G-09SPQ][EC 100663301] zebra_interface_link_params_read: unknown ifindex 0, shouldn't happen
+2023/07/19 08:20:23 OSPF: [TS11G-09SPQ][EC 100663301] zebra_interface_link_params_read: unknown ifindex 0, shouldn't happen
+2023/07/19 08:20:23 OSPF: [TS11G-09SPQ][EC 100663301] zebra_interface_link_params_read: unknown ifindex 0, shouldn't happen
+2023/07/19 08:20:23 ZEBRA: [V98V0-MTWPF] client 44 says hello and bids fair to announce only ospf6 routes vrf=0
+2023/07/19 08:20:23 OSPF6: [H12G7-14H22] Higher order sequence number 0 update for default process
+2023/07/19 08:20:23 OSPF6: [YAF85-253AP][EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2023/07/19 08:20:23 OSPF6: [YAF85-253AP][EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2023/07/19 08:20:23 ZEBRA: [V98V0-MTWPF] client 49 says hello and bids fair to announce only static routes vrf=0
+2023/07/19 08:20:28 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:29 BGP: [N9HHH-F8H1M] %ADJCHANGE: neighbor 192.168.5.2(r5) in vrf default Up
+2023/07/19 08:20:29 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.168.5.2 in vrf default
+2023/07/19 08:20:30 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:32 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:34 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:36 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:38 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: net3 old speed: 0 new speed: 10000
+2023/07/19 08:20:38 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:38 OSPF: [S5PCG-77H23] Packet[DD]: Neighbor 192.168.255.1 Negotiation done (Master).
+2023/07/19 08:20:38 OSPF: [H0QH3-2B67G] AdjChg: Nbr 192.168.255.1(default) on net0:192.168.0.2: Exchange -> Full (ExchangeDone)
+2023/07/19 08:20:40 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:42 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:44 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:46 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:48 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:48 BGP: [HZN6M-XRM1G] %NOTIFICATION: sent to neighbor 192.168.255.1 6/7 (Cease/Connection Collision Resolution) 0 bytes 
+2023/07/19 08:20:48 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: 192.168.255.1
+2023/07/19 08:20:48 BGP: [N9HHH-F8H1M] %ADJCHANGE: neighbor 192.168.255.1(r1) in vrf default Up
+2023/07/19 08:20:48 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.168.255.1 in vrf default
+2023/07/19 08:20:50 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:52 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:54 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:56 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:20:58 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:00 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:02 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:04 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:06 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:07 OSPF6: [P7YK1-K54GV] VRF default: Nbr 192.168.255.1%net0: Negotiation failed
+2023/07/19 08:21:08 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:09 OSPF6: [X5JSC-0Y36N] AdjChg: Nbr 192.168.255.1%net0: ExChange -> Full (ExchangeDone)
+2023/07/19 08:21:10 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:12 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:14 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:16 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:18 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:20 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:22 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:24 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:26 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:28 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:30 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:32 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:34 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:36 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:38 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:40 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:42 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:44 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:46 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:48 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:50 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:52 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:54 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:56 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:21:58 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:00 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:02 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:04 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:06 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:08 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:10 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:12 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:14 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:16 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:18 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:20 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:22 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:24 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:26 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:28 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:30 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:32 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:34 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:36 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:38 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:40 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:42 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:44 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:46 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:22:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:35 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:37 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:39 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:41 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:45 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:47 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:23:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:35 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:37 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:39 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:41 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:45 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:47 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:24:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:35 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:37 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:39 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:41 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:45 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:47 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:25:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:35 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:37 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:39 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:41 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:45 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:47 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:26:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:35 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:37 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:39 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:41 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:45 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:47 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:27:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:35 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:37 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:39 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:41 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:45 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:47 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:28:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:35 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:37 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:39 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:41 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:45 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:47 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:49 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:51 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:55 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:57 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:29:59 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:01 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:05 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:07 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:09 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:11 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:15 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:17 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:19 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:21 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:25 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:27 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:29 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:31 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.3 [Hello:RECV]: RouterDeadInterval mismatch (expected 40, but received 10).
+2023/07/19 08:30:32 BGP: [PXVXG-TFNNT] %ADJCHANGE: neighbor 192.168.255.1(r1) in vrf default Down Peer closed the session
+2023/07/19 08:30:32 BGP: [PXVXG-TFNNT] %ADJCHANGE: neighbor 192.168.5.2(r5) in vrf default Down Peer closed the session
+2023/07/19 08:20:20 ZEBRA: [V98V0-MTWPF] client 32 says hello and bids fair to announce only vnc routes vrf=0
+2023/07/19 08:20:20 ZEBRA: [V98V0-MTWPF] client 29 says hello and bids fair to announce only bgp routes vrf=0
+2023/07/19 08:20:21 ZEBRA: [V98V0-MTWPF] client 39 says hello and bids fair to announce only ospf routes vrf=0
+2023/07/19 08:20:21 OSPF6: [H12G7-14H22] Higher order sequence number 0 update for default process
+2023/07/19 08:20:21 OSPF6: [YAF85-253AP][EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2023/07/19 08:20:21 OSPF6: [YAF85-253AP][EC 100663299] buffer_flush_available: write error on fd 2: Bad file descriptor
+2023/07/19 08:20:21 ZEBRA: [V98V0-MTWPF] client 44 says hello and bids fair to announce only ospf6 routes vrf=0
+2023/07/19 08:20:21 ZEBRA: [V98V0-MTWPF] client 49 says hello and bids fair to announce only static routes vrf=0
+2023/07/19 08:20:22 ZEBRA: [HSYZM-HV7HF] Extended Error: Carrier for nexthop device is down
+2023/07/19 08:20:22 ZEBRA: [WVJCK-PPMGD][EC 4043309093] netlink-dp (NS 0) error: Network is down, type=RTM_NEWNEXTHOP(104), seq=36, pid=4135559020
+2023/07/19 08:20:22 ZEBRA: [X5XE1-RS0SW][EC 4043309074] Failed to install Nexthop (39[if 11134]) into the kernel
+2023/07/19 08:20:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:20:35 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: net0 old speed: 0 new speed: 10000
+2023/07/19 08:20:36 OSPF: [S5PCG-77H23] Packet[DD]: Neighbor 192.168.255.1 Negotiation done (Master).
+2023/07/19 08:20:36 OSPF: [H0QH3-2B67G] AdjChg: Nbr 192.168.255.1(default) on net1:192.168.1.2: Exchange -> Full (ExchangeDone)
+2023/07/19 08:20:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:20:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:21:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:21:06 OSPF6: [P7YK1-K54GV] VRF default: Nbr 192.168.255.1%net1: Negotiation failed
+2023/07/19 08:21:11 OSPF6: [X5JSC-0Y36N] AdjChg: Nbr 192.168.255.1%net1: ExChange -> Full (ExchangeDone)
+2023/07/19 08:21:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:21:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:21:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:21:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:21:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:22:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:22:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:22:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:22:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:22:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:22:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:23:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:23:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:23:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:23:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:23:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:23:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:24:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:24:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:24:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:24:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:24:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:24:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:25:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:25:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:25:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:25:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:25:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:25:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:26:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:26:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:26:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:26:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:26:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:26:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:27:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:27:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:27:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:27:33 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:27:43 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:27:53 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:28:03 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:28:13 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:28:23 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:28:34 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:28:44 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:28:54 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:29:04 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:29:14 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:29:24 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:29:34 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:29:44 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:29:54 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:30:04 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:30:14 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:30:24 OSPF: [GTEK4-085WD][EC 134217741] Packet 192.168.255.2 [Hello:RECV]: RouterDeadInterval mismatch (expected 10, but received 40).
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 29 says hello and bids fair to announce only bgp routes vrf=0
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 32 says hello and bids fair to announce only vnc routes vrf=0
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 39 says hello and bids fair to announce only ospf routes vrf=0
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 44 says hello and bids fair to announce only ospf6 routes vrf=0
+2023/07/19 08:20:25 ZEBRA: [V98V0-MTWPF] client 49 says hello and bids fair to announce only static routes vrf=0
+2023/07/19 08:20:27 BGP: [HZN6M-XRM1G] %NOTIFICATION: sent to neighbor 192.168.2.1 6/7 (Cease/Connection Collision Resolution) 0 bytes 
+2023/07/19 08:20:27 BGP: [MVZKX-EG443][EC 33554452] bgp_process_packet: BGP OPEN receipt failed for peer: 192.168.2.1
+2023/07/19 08:20:27 BGP: [N9HHH-F8H1M] %ADJCHANGE: neighbor 192.168.2.1(r1) in vrf default Up
+2023/07/19 08:20:27 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.168.2.1 in vrf default
+2023/07/19 08:30:32 BGP: [PXVXG-TFNNT] %ADJCHANGE: neighbor 192.168.2.1(r1) in vrf default Down Peer closed the session
+2023/07/19 08:20:19 ZEBRA: [V98V0-MTWPF] client 32 says hello and bids fair to announce only vnc routes vrf=0
+2023/07/19 08:20:19 ZEBRA: [V98V0-MTWPF] client 29 says hello and bids fair to announce only bgp routes vrf=0
+2023/07/19 08:20:19 ZEBRA: [V98V0-MTWPF] client 39 says hello and bids fair to announce only ospf routes vrf=0
+2023/07/19 08:20:19 ZEBRA: [V98V0-MTWPF] client 44 says hello and bids fair to announce only ospf6 routes vrf=0
+2023/07/19 08:20:19 ZEBRA: [V98V0-MTWPF] client 49 says hello and bids fair to announce only static routes vrf=0
+2023/07/19 08:20:20 BGP: [VCGF0-X62M1][EC 100663301] INTERFACE_STATE: Cannot find IF clab-16b718e6 in VRF 0
+2023/07/19 08:20:29 BGP: [N9HHH-F8H1M] %ADJCHANGE: neighbor 192.168.5.1(r2) in vrf default Up
+2023/07/19 08:20:29 BGP: [M59KS-A3ZXZ] bgp_update_receive: rcvd End-of-RIB for IPv4 Unicast from 192.168.5.1 in vrf default
+2023/07/19 08:20:33 ZEBRA: [WPPMZ-G9797] if_zebra_speed_update: net0 old speed: 0 new speed: 10000
