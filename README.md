@@ -1,10 +1,17 @@
 # SCOLM: Source Code Origins of Log Messages
 
-SCOLM is a tool that lets developers and system operators identify real-world log messages. By analysing the source code, SCOLM is able to build precise templates, and uses them to match log messages at very high speed; 1 million lines per minute single-threaded is the expected speed on modern hardware.
+SCOLM is a tool that lets developers and system operators identify real-world log messages and return their exact origin. By analysing the source code, SCOLM is able to build precise templates, and uses them to match log messages at very high speed; 1 million lines per minute single-threaded is the expected speed on modern hardware.
 
 ## Tutorial: how to use SCOLM
 
 ### Running SCOLM on log data
+
+**⚠️ We recommend installing/updating [Amulog](https://github.com/amulog/amulog) manually by cloning the official repository and running `python3 setup.py install`.** In addition, [universal-ctags](https://github.com/universal-ctags/ctags) must be installed on you system for analysing the source code.
+
+We provide sample data in this repository for you to try. It originates from FRRouting 8.5, and you can test SCOLM yourself simply by running the following command:
+```bash
+$ python3 main.py -c configs/frr_conf.py -b
+```
 
 #### 1. Providing a valid config
 
@@ -58,4 +65,14 @@ log = "2023/07/19 08:20:22 ZEBRA: [HSYZM-HV7HF] Extended Error: Carrier for next
 results = db.find_matches(log, regex_fallback=True)
 # regex_fallback defaults to True and indicates whether SCOLM should look into the regex table
 # in case of a failed search in the WSPT
+```
+
+## Reference
+If you use this code, please consider citing:
+```bibtex
+@inproceedings{DamoiseauMalraux2025,
+  author = {Damoiseau-Malraux, Gaspard and Kobayashi, Satoru and Fukuda, Kensuke},
+  title = {Automatically pinpointing original logging functions from log messages for network troubleshooting},
+  year = {2025}
+}
 ```
