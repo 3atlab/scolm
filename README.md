@@ -8,9 +8,33 @@ SCOLM is a tool that lets developers and system operators identify real-world lo
 
 **⚠️ We recommend installing/updating [Amulog](https://github.com/amulog/amulog) manually by cloning the official repository and running `python3 setup.py install`.** In addition, [universal-ctags](https://github.com/universal-ctags/ctags) must be installed on you system for analysing the source code.
 
-We provide sample data in this repository for you to try. It originates from FRRouting 8.5, and you can test SCOLM yourself simply by running the following command:
+We provide sample data in this repository for you to try. It originates from FRRouting 8.5, meaning that in order to be able to scan the right source code, you must have the sources of FRR (with HEAD positioned on branch `tags/frr-8.5`) somewhere on your system (and which path is correctly specified in `configs/frr_conf.py`). Then, you can test SCOLM yourself simply by running the following command:
 ```bash
 $ python3 main.py -c configs/frr_conf.py -b
+```
+Output:
+```
+Filtering files for logging functions... 774 processed
+Parsing files... 913 of 913
+Gathering templates... 7509 of 7509 7421 usable templates
+Grouping 7420 of 7421... 6481 unique templates
+--- 456/456 (4.100799560546875e-05 s) (1 matches)     
+Results on 456 logs for scolm:
+ - Total time:      0.043059 seconds
+ - Average per log:   0.000094 sec
+ - When a match exists:   0.000094 sec
+ - Match rate on given dataset: 100.00%
+ - Number of results:
+  - 0 results:  0
+  - 1 results:  452
+  - 2 results:  4
+  - 3 results:  0
+  - 4 results:  0
+  - 5 results:  0
+  - 6 results:  0
+  - 7 results:  0
+  - 8 results:  0
+  - 9 results:  0
 ```
 
 #### 1. Providing a valid config
