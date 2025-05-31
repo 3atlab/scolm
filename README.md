@@ -42,7 +42,7 @@ Note: relative paths are also valid.
 
 Once your config file is complete and the dependencies are installed, you can run the template generation with
 ```py
-python3 main.py -c [CONFIG FILE PATH] [OPTIONS]
+python3 main.py -c [CONFIG FILE RELATIVE PATH] [OPTIONS]
 ```
 See the help flag `-h` for more information.
 
