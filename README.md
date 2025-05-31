@@ -2,15 +2,55 @@
 
 SCOLM is a tool that lets developers and system operators identify real-world log messages and return their exact origin. By analysing the source code, SCOLM is able to build precise templates, and uses them to match log messages at very high speed; 1 million lines per minute single-threaded is the expected speed on modern hardware.
 
+- Source: [https://github.com/3atlab/scolm](https://github.com/3atlab/scolm)
+- Bug reports: [https://github.com/3atlab/scolm/issues](https://github.com/3atlab/scolm/issues)
+- Author: [Gaspard Damoiseau-Malraux](https://github.com/biskweet)
+- Maintainers: [Gaspard Damoiseau-Malraux](https://github.com/biskweet) and [Satoru Kobayashi](https://github.com/cpflat/)
+- License: [https://opensource.org/license/apache-2-0](https://opensource.org/license/apache-2-0)
+
 ## Tutorial: how to use SCOLM
+
+### Setup
+
+- **⚠️ We recommend installing/updating [Amulog](https://github.com/amulog/amulog) manually from the official repository.**
+
+With your Python virtual environment activated, clone Amulog and install it manually:
+```bash
+git clone https://github.com/amulog/amulog
+cd amulog/
+python3 setup.py install
+```
+In addition, [universal-ctags](https://github.com/universal-ctags/ctags) must be installed on you system for analysing the source code.
+
+Finally, go back to the directory of SCOLM and run `pip install -r requirements.txt`.
+
+### Preparing data
+
+You can use any target software as long as it is coded in C language. The source code must exist locally on your machine, and the path specified in the config file must be consistent with the actual path to the source code. This is necessary for SCOLM to know which directory it should scan. Here is an example of a valid file tree:
+```
+/home/user/
+├── frr/
+│   └── ...  
+└── scolm/
+    ├── configs/
+    │   ├── frr_conf.py <-- must reference /home/user/frr
+    │   └── ...
+    ├── main.py
+    └── ...
+```
+Note: relative paths are also valid.
+
+Once your config file is complete and the dependencies are installed, you can run the template generation with
+```py
+python3 main.py -c [CONFIG FILE PATH] [OPTIONS]
+```
+See the help flag `-h` for more information.
 
 ### Running SCOLM on log data
 
-**⚠️ We recommend installing/updating [Amulog](https://github.com/amulog/amulog) manually by cloning the official repository and running `python3 setup.py install`.** In addition, [universal-ctags](https://github.com/universal-ctags/ctags) must be installed on you system for analysing the source code.
-
-We provide sample data in this repository for you to try. It originates from FRRouting 8.5, meaning that in order to be able to scan the right source code, you must have the sources of FRR (with HEAD positioned on branch `tags/frr-8.5`) somewhere on your system (and which path is correctly specified in `configs/frr_conf.py`). Then, you can test SCOLM yourself simply by running the following command:
+We provide sample data in this repository for you to try. It originates from FRRouting 8.5, meaning that in order to be able to scan the right source code, you must have the sources of FRR with HEAD positioned on branch `tags/frr-8.5`. Then, you can test SCOLM yourself simply by running the following command:
 ```bash
-$ python3 main.py -c configs/frr_conf.py -b
+$ python3 main.py -c configs/frr_conf.py -b  # -b for "benchmark"
 ```
 Output:
 ```
@@ -92,11 +132,5 @@ results = db.find_matches(log, regex_fallback=True)
 ```
 
 ## Reference
-If you use this code, please consider citing:
-```bibtex
-@inproceedings{DamoiseauMalraux2025,
-  author = {Damoiseau-Malraux, Gaspard and Kobayashi, Satoru and Fukuda, Kensuke},
-  title = {Automatically pinpointing original logging functions from log messages for network troubleshooting},
-  year = {2025}
-}
-```
+
+This work will be demonstrated at COMPSAC 2025.
