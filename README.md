@@ -6,7 +6,7 @@ SCOLM is a tool that lets developers and system operators identify real-world lo
 - Bug reports: [https://github.com/3atlab/scolm/issues](https://github.com/3atlab/scolm/issues)
 - Author: [Gaspard Damoiseau-Malraux](https://github.com/biskweet)
 - Maintainers: [Gaspard Damoiseau-Malraux](https://github.com/biskweet) and [Satoru Kobayashi](https://github.com/cpflat/)
-- License: [https://opensource.org/license/apache-2-0](https://opensource.org/license/apache-2-0)
+- License: [Apache 2.0 License](https://opensource.org/license/apache-2-0)
 
 ## Tutorial: how to use SCOLM
 
