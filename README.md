@@ -121,8 +121,10 @@ conf = importlib.import_module("frr_conf")  # No ".py" here, and / in the path a
 
 # Create an instance of the database and run the build
 db = Database(conf.CODEBASE_PATH, conf.DATABASE_FILE)
-db.build_db(conf.LOGGING_FUNCTIONS, conf.SPECIAL_RULES, force_rebuild=FORCE_REBUILD, prefill_wspt=True)
+db.build_db(conf.LOGGING_FUNCTIONS, conf.SPECIAL_RULES, force_rebuild=True, prefill_wspt=True)
 # By default, force_rebuild and prefill_wspt are set to True
+db.set_log2seq_parser(conf.log_parser)  # Add the corresponding header parser
+
 
 # Now given a log message `log`, we simply run the search
 log = "2023/07/19 08:20:22 ZEBRA: [HSYZM-HV7HF] Extended Error: Carrier for nexthop device is down"
